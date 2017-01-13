@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F962FF61E24314B006BF062 /* ACDScoreTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F962FF51E24314B006BF062 /* ACDScoreTableViewController.m */; };
+		2F962FFA1E24526C006BF062 /* ACConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F962FF91E24526C006BF062 /* ACConstant.m */; };
+		2F9CF5FE1E1D999000EB8768 /* ABScore.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9CF5FD1E1D999000EB8768 /* ABScore.m */; };
+		34A23CC91E1C228E00A7A92C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A23CC81E1C228E00A7A92C /* main.m */; };
+		34A23CCC1E1C228E00A7A92C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A23CCB1E1C228E00A7A92C /* AppDelegate.m */; };
+		34A23CD21E1C228E00A7A92C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34A23CD01E1C228E00A7A92C /* Main.storyboard */; };
+		34A23CD41E1C228E00A7A92C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34A23CD31E1C228E00A7A92C /* Assets.xcassets */; };
+		34A23CD71E1C228E00A7A92C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34A23CD51E1C228E00A7A92C /* LaunchScreen.storyboard */; };
+		34A23CF21E1C383C00A7A92C /* ACDashBoardCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A23CF11E1C383C00A7A92C /* ACDashBoardCollectionViewController.m */; };
+		34A23CF61E1C38F500A7A92C /* ACDashBoardCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A23CF51E1C38F500A7A92C /* ACDashBoardCollectionViewCell.m */; };
+		34A23CF91E1C4CFA00A7A92C /* ABCards.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A23CF81E1C4CFA00A7A92C /* ABCards.m */; };
+		B065547F1E215BF900B32E79 /* ACDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B065547E1E215BF900B32E79 /* ACDBManager.m */; };
+		B06554821E215DF200B32E79 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B06554811E215DF200B32E79 /* libsqlite3.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F962FF41E24314B006BF062 /* ACDScoreTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACDScoreTableViewController.h; sourceTree = "<group>"; };
+		2F962FF51E24314B006BF062 /* ACDScoreTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACDScoreTableViewController.m; sourceTree = "<group>"; };
+		2F962FF81E24526C006BF062 /* ACConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACConstant.h; sourceTree = "<group>"; };
+		2F962FF91E24526C006BF062 /* ACConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACConstant.m; sourceTree = "<group>"; };
+		2F9CF5FC1E1D999000EB8768 /* ABScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABScore.h; sourceTree = "<group>"; };
+		2F9CF5FD1E1D999000EB8768 /* ABScore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABScore.m; sourceTree = "<group>"; };
+		34A23CC41E1C228E00A7A92C /* NPMemoryGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NPMemoryGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34A23CC81E1C228E00A7A92C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34A23CCA1E1C228E00A7A92C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		34A23CCB1E1C228E00A7A92C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		34A23CD11E1C228E00A7A92C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34A23CD31E1C228E00A7A92C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34A23CD61E1C228E00A7A92C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34A23CD81E1C228E00A7A92C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34A23CF01E1C383C00A7A92C /* ACDashBoardCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACDashBoardCollectionViewController.h; sourceTree = "<group>"; };
+		34A23CF11E1C383C00A7A92C /* ACDashBoardCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACDashBoardCollectionViewController.m; sourceTree = "<group>"; };
+		34A23CF41E1C38F500A7A92C /* ACDashBoardCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACDashBoardCollectionViewCell.h; sourceTree = "<group>"; };
+		34A23CF51E1C38F500A7A92C /* ACDashBoardCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACDashBoardCollectionViewCell.m; sourceTree = "<group>"; };
+		34A23CF71E1C4CFA00A7A92C /* ABCards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABCards.h; sourceTree = "<group>"; };
+		34A23CF81E1C4CFA00A7A92C /* ABCards.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABCards.m; sourceTree = "<group>"; };
+		B065547D1E215BF900B32E79 /* ACDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACDBManager.h; sourceTree = "<group>"; };
+		B065547E1E215BF900B32E79 /* ACDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACDBManager.m; sourceTree = "<group>"; };
+		B06554811E215DF200B32E79 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34A23CC11E1C228E00A7A92C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06554821E215DF200B32E79 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F962FF71E245230006BF062 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				2F962FF81E24526C006BF062 /* ACConstant.h */,
+				2F962FF91E24526C006BF062 /* ACConstant.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		34A23CBB1E1C228E00A7A92C = {
+			isa = PBXGroup;
+			children = (
+				34A23CC61E1C228E00A7A92C /* accedoCardGame */,
+				34A23CC51E1C228E00A7A92C /* Products */,
+				B06554801E215DF200B32E79 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		34A23CC51E1C228E00A7A92C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34A23CC41E1C228E00A7A92C /* NPMemoryGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34A23CC61E1C228E00A7A92C /* accedoCardGame */ = {
+			isa = PBXGroup;
+			children = (
+				B065547B1E215BCC00B32E79 /* Database */,
+				34A23CED1E1C381D00A7A92C /* Cell */,
+				34A23CEE1E1C381D00A7A92C /* Model */,
+				34A23CF31E1C38AF00A7A92C /* StoryBoards */,
+				34A23CEF1E1C381D00A7A92C /* ViewControllers */,
+				2F962FF71E245230006BF062 /* Utility */,
+				34A23CD31E1C228E00A7A92C /* Assets.xcassets */,
+				34A23CD81E1C228E00A7A92C /* Info.plist */,
+				34A23CC71E1C228E00A7A92C /* Supporting Files */,
+			);
+			path = accedoCardGame;
+			sourceTree = "<group>";
+		};
+		34A23CC71E1C228E00A7A92C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34A23CCA1E1C228E00A7A92C /* AppDelegate.h */,
+				34A23CCB1E1C228E00A7A92C /* AppDelegate.m */,
+				34A23CC81E1C228E00A7A92C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34A23CED1E1C381D00A7A92C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				34A23CF41E1C38F500A7A92C /* ACDashBoardCollectionViewCell.h */,
+				34A23CF51E1C38F500A7A92C /* ACDashBoardCollectionViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		34A23CEE1E1C381D00A7A92C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				34A23CF71E1C4CFA00A7A92C /* ABCards.h */,
+				34A23CF81E1C4CFA00A7A92C /* ABCards.m */,
+				2F9CF5FC1E1D999000EB8768 /* ABScore.h */,
+				2F9CF5FD1E1D999000EB8768 /* ABScore.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		34A23CEF1E1C381D00A7A92C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				34A23CF01E1C383C00A7A92C /* ACDashBoardCollectionViewController.h */,
+				34A23CF11E1C383C00A7A92C /* ACDashBoardCollectionViewController.m */,
+				2F962FF41E24314B006BF062 /* ACDScoreTableViewController.h */,
+				2F962FF51E24314B006BF062 /* ACDScoreTableViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		34A23CF31E1C38AF00A7A92C /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				34A23CD01E1C228E00A7A92C /* Main.storyboard */,
+				34A23CD51E1C228E00A7A92C /* LaunchScreen.storyboard */,
+			);
+			name = StoryBoards;
+			sourceTree = "<group>";
+		};
+		B065547B1E215BCC00B32E79 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				B065547D1E215BF900B32E79 /* ACDBManager.h */,
+				B065547E1E215BF900B32E79 /* ACDBManager.m */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		B06554801E215DF200B32E79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B06554811E215DF200B32E79 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34A23CC31E1C228E00A7A92C /* NPMemoryGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34A23CDB1E1C228E00A7A92C /* Build configuration list for PBXNativeTarget "NPMemoryGame" */;
+			buildPhases = (
+				34A23CC01E1C228E00A7A92C /* Sources */,
+				34A23CC11E1C228E00A7A92C /* Frameworks */,
+				34A23CC21E1C228E00A7A92C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NPMemoryGame;
+			productName = accedoCardGame;
+			productReference = 34A23CC41E1C228E00A7A92C /* NPMemoryGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34A23CBC1E1C228E00A7A92C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Nouman Pervez";
+				TargetAttributes = {
+					34A23CC31E1C228E00A7A92C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 34A23CBF1E1C228E00A7A92C /* Build configuration list for PBXProject "NPMemoryGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34A23CBB1E1C228E00A7A92C;
+			productRefGroup = 34A23CC51E1C228E00A7A92C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34A23CC31E1C228E00A7A92C /* NPMemoryGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34A23CC21E1C228E00A7A92C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A23CD71E1C228E00A7A92C /* LaunchScreen.storyboard in Resources */,
+				34A23CD41E1C228E00A7A92C /* Assets.xcassets in Resources */,
+				34A23CD21E1C228E00A7A92C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34A23CC01E1C228E00A7A92C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A23CCC1E1C228E00A7A92C /* AppDelegate.m in Sources */,
+				2F962FFA1E24526C006BF062 /* ACConstant.m in Sources */,
+				2F9CF5FE1E1D999000EB8768 /* ABScore.m in Sources */,
+				34A23CF61E1C38F500A7A92C /* ACDashBoardCollectionViewCell.m in Sources */,
+				2F962FF61E24314B006BF062 /* ACDScoreTableViewController.m in Sources */,
+				34A23CC91E1C228E00A7A92C /* main.m in Sources */,
+				34A23CF91E1C4CFA00A7A92C /* ABCards.m in Sources */,
+				34A23CF21E1C383C00A7A92C /* ACDashBoardCollectionViewController.m in Sources */,
+				B065547F1E215BF900B32E79 /* ACDBManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		34A23CD01E1C228E00A7A92C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34A23CD11E1C228E00A7A92C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34A23CD51E1C228E00A7A92C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34A23CD61E1C228E00A7A92C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34A23CD91E1C228E00A7A92C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		34A23CDA1E1C228E00A7A92C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34A23CDC1E1C228E00A7A92C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = accedoCardGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = perveznouman.accedoCardGame;
+				PRODUCT_NAME = NPMemoryGame;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34A23CDD1E1C228E00A7A92C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = accedoCardGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = perveznouman.accedoCardGame;
+				PRODUCT_NAME = NPMemoryGame;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34A23CBF1E1C228E00A7A92C /* Build configuration list for PBXProject "NPMemoryGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34A23CD91E1C228E00A7A92C /* Debug */,
+				34A23CDA1E1C228E00A7A92C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34A23CDB1E1C228E00A7A92C /* Build configuration list for PBXNativeTarget "NPMemoryGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34A23CDC1E1C228E00A7A92C /* Debug */,
+				34A23CDD1E1C228E00A7A92C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34A23CBC1E1C228E00A7A92C /* Project object */;
+}
